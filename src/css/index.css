@@ -210,7 +210,7 @@ footer {
     
 }
 
-section > p > a::after{
+p > a::after{
     content: "🔗";
 }
 

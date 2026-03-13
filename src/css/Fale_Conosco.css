@@ -87,6 +87,18 @@ p > a{
     font-weight: bolder;
 }
 
+@media (max-width: 414px) {
+    header > nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header {
+        height: auto;
+    }
+}
+
 h2 {
     font-family: var(--fonte2);
     color:#2FA866;

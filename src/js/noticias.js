@@ -32,7 +32,7 @@ async function carregarNoticias() {
     const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     const prompt = "Liste as 5 notícias mais importantes e recentes sobre Android de hoje. " +
-                   "Para cada uma, crie um título chamativo e um resumo técnico de até 5 linhas. " +
+                   "Para cada uma, crie um título chamativo e um resumo técnico de até 8 linhas. " +
                    "Retorne o resultado formatado apenas com as tags HTML <h2> e <p>.";
 
     const result = await model.generateContent(prompt);

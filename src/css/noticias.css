@@ -71,6 +71,18 @@ body {
     font-family: var(--fonte0);
 }
 
+@media (max-width: 414px) {
+    header > nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header {
+        height: auto;
+    }
+}
+
 main {
     margin: auto;
     background-color: white;

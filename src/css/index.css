@@ -128,10 +128,23 @@ main {
 }
 
 #dan-droids{
-    padding-left: 30px;
     margin: auto;
     padding-top: 20px;
     display: block;
+}
+
+picture > img , picture > source {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+@media (max-width: 840px) {
+    picture > img , picture > source {
+    width: 70%;
+    height: auto;
+    display: flex;
+}
 }
 
 div.video{

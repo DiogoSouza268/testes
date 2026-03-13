@@ -51,6 +51,18 @@ header > nav {
     
 }
 
+@media (max-width: 414px) {
+    header > nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header {
+        height: auto;
+    }
+}
+
 header > nav > a{
     color: var(--cor0);
     font-weight: bolder;
